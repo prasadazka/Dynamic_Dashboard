@@ -1,6 +1,6 @@
 from fastapi import FastAPI, UploadFile, File, HTTPException, BackgroundTasks
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
 import pandas as pd
 import numpy as np
 from tempfile import NamedTemporaryFile
@@ -56,11 +56,26 @@ async def healthz():
 
 
 # Serve the built React/Vite SPA from the same Cloud Run service.
-# `html=True` makes StaticFiles fall back to index.html for client-side routes.
-# Mounted last so the /api/* router and /healthz take precedence.
+#
+# This is a catch-all route registered LAST so the /api/* and /healthz routes
+# above take precedence. We avoid `app.mount("/", StaticFiles)` because
+# Starlette's root mount intercepts requests before FastAPI route resolution,
+# 404'ing /api/* and /healthz even though they're registered.
 _FRONTEND_DIST = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "frontend_dist")
 if os.path.isdir(_FRONTEND_DIST):
-    app.mount("/", StaticFiles(directory=_FRONTEND_DIST, html=True), name="spa")
+    _INDEX_HTML = os.path.join(_FRONTEND_DIST, "index.html")
+
+    @app.get("/{full_path:path}", include_in_schema=False)
+    async def spa(full_path: str):
+        # Path-traversal guard: normalize and require the result stays inside dist.
+        candidate = os.path.normpath(os.path.join(_FRONTEND_DIST, full_path))
+        if (
+            full_path
+            and candidate.startswith(_FRONTEND_DIST)
+            and os.path.isfile(candidate)
+        ):
+            return FileResponse(candidate)
+        return FileResponse(_INDEX_HTML)
 else:
     @app.get("/")
     async def root():
