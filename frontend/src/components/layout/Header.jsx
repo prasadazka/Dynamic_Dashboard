@@ -25,7 +25,7 @@ const Header = ({ toggleSidebar, isSidebarOpen }) => {
           <h2
             className={`ml-4 text-xl font-semibold text-gray-800 hidden md:block truncate ${theme.fontTracking}`}
           >
-            MISBAH DYNAMIC BUSINESS INTELLIGENCE PLATFORM
+            Savant AI
           </h2>
         </div>
 

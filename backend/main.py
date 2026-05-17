@@ -25,8 +25,8 @@ logger = logging.getLogger(__name__)
 
 # Initialize FastAPI app
 app = FastAPI(
-    title="Adaptive Data Intelligence Platform",
-    description="Transform CSV data into actionable insights through domain-adaptive analytics and natural language interaction",
+    title="Savant AI",
+    description="Upload a CSV and Savant AI infers the domain, builds a tailored dashboard, and answers questions about your data in plain English.",
     version="1.0.0",
     debug=DEBUG
 )

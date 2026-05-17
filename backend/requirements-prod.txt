@@ -10,7 +10,8 @@ numpy==1.26.2
 python-multipart==0.0.6
 python-dotenv==1.0.0
 
-# LLM integration
-langchain==0.1.0
+# LLM integration. langchain-groq 0.1.2 needs langchain-core>=0.1.42,
+# so the core pin has to move with it.
+langchain==0.1.16
 langchain-groq==0.1.2
-langchain-core==0.1.11
+langchain-core==0.1.45

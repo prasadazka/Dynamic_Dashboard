@@ -11,10 +11,10 @@ const Upload = () => {
       <div className="max-w-3xl mx-auto">
         <div className="text-center mb-8">
           <h1 className="text-3xl font-bold mb-4 text-primary-700">
-            MISBAH DYNAMIC INTELLEGENCE PLATFORM
+            Savant AI
           </h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Transform your CSV data into actionable insights through domain-adaptive analytics and natural language interaction.
+            Upload a CSV and Savant AI infers the domain, builds a tailored dashboard, and answers questions about your data in plain English.
           </p>
         </div>
         

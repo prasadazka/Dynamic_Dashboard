@@ -8,9 +8,9 @@ on:
 env:
   GCP_PROJECT_ID: dynamicai-496506
   GCP_REGION: us-central1
-  SERVICE_NAME: adaptive-data-platform
+  SERVICE_NAME: savant-ai
   REPO_NAME: app
-  IMAGE_NAME: adaptive-data-platform
+  IMAGE_NAME: savant-ai
 
 jobs:
   deploy:

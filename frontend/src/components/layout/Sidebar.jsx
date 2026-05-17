@@ -33,10 +33,10 @@ const Sidebar = ({ isOpen }) => {
           {isOpen && (
             <div className="min-w-0">
               <h1 className={`text-sm font-bold text-gray-900 leading-tight truncate ${theme.fontTracking}`}>
-                MISBAH DYNAMIC
+                Savant AI
               </h1>
               <p className="text-[11px] text-gray-500 truncate">
-                {domain ? `${theme.label} Intelligence` : 'BI Platform'}
+                {domain ? `${theme.label} Intelligence` : 'Adaptive Analytics'}
               </p>
             </div>
           )}
