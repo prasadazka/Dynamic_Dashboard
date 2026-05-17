@@ -1,5 +1,6 @@
 from fastapi import FastAPI, UploadFile, File, HTTPException, BackgroundTasks
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
 import pandas as pd
 import numpy as np
 from tempfile import NamedTemporaryFile
@@ -49,14 +50,24 @@ from backend.api.routes import router
 # Include API routes
 app.include_router(router)
 
-@app.get("/")
-async def root():
-    return {
-        "message": "Adaptive Data Intelligence Platform API",
-        "documentation": "/docs",
-        "version": "1.0.0"
-    }
+@app.get("/healthz")
+async def healthz():
+    return {"status": "ok", "version": "1.0.0"}
+
+
+# Serve the built React/Vite SPA from the same Cloud Run service.
+# `html=True` makes StaticFiles fall back to index.html for client-side routes.
+# Mounted last so the /api/* router and /healthz take precedence.
+_FRONTEND_DIST = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "frontend_dist")
+if os.path.isdir(_FRONTEND_DIST):
+    app.mount("/", StaticFiles(directory=_FRONTEND_DIST, html=True), name="spa")
+else:
+    @app.get("/")
+    async def root():
+        return {"message": "API only — frontend bundle not present", "docs": "/docs"}
+
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8000, log_level=LOG_LEVEL.lower())
+    port = int(os.environ.get("PORT", "8000"))
+    uvicorn.run(app, host="0.0.0.0", port=port, log_level=LOG_LEVEL.lower())

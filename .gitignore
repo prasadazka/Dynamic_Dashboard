@@ -3,6 +3,11 @@
 .env.*
 !.env.example
 
+# GCP service account keys (NEVER commit)
+/dynamicai-*.json
+/*-service-account*.json
+/gcp-*.json
+
 # Python
 __pycache__/
 *.py[cod]

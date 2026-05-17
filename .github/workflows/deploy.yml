@@ -1,0 +1,66 @@
+name: Deploy to Cloud Run
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+env:
+  GCP_PROJECT_ID: dynamicai-496506
+  GCP_REGION: us-central1
+  SERVICE_NAME: adaptive-data-platform
+  REPO_NAME: app
+  IMAGE_NAME: adaptive-data-platform
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Authenticate to GCP
+        uses: google-github-actions/auth@v2
+        with:
+          credentials_json: ${{ secrets.GCP_SA_KEY }}
+
+      - name: Setup gcloud
+        uses: google-github-actions/setup-gcloud@v2
+        with:
+          project_id: ${{ env.GCP_PROJECT_ID }}
+
+      - name: Configure Docker for Artifact Registry
+        run: gcloud auth configure-docker ${{ env.GCP_REGION }}-docker.pkg.dev --quiet
+
+      - name: Build image
+        run: |
+          IMAGE_URI="${GCP_REGION}-docker.pkg.dev/${GCP_PROJECT_ID}/${REPO_NAME}/${IMAGE_NAME}:${GITHUB_SHA}"
+          echo "IMAGE_URI=${IMAGE_URI}" >> $GITHUB_ENV
+          docker build -t "${IMAGE_URI}" .
+
+      - name: Push image
+        run: docker push "${IMAGE_URI}"
+
+      - name: Deploy to Cloud Run
+        run: |
+          gcloud run deploy "${SERVICE_NAME}" \
+            --image "${IMAGE_URI}" \
+            --region "${GCP_REGION}" \
+            --platform managed \
+            --allow-unauthenticated \
+            --memory 1Gi \
+            --cpu 1 \
+            --timeout 300 \
+            --concurrency 40 \
+            --max-instances 5 \
+            --set-env-vars "GROQ_MODEL=llama-3.3-70b-versatile,DEBUG=False,LOG_LEVEL=INFO" \
+            --update-secrets "GROQ_API_KEY=GROQ_API_KEY:latest"
+
+      - name: Show service URL
+        run: |
+          URL=$(gcloud run services describe "${SERVICE_NAME}" --region "${GCP_REGION}" --format='value(status.url)')
+          echo "Deployed to: ${URL}"
+          echo "::notice title=Cloud Run URL::${URL}"

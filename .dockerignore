@@ -1,0 +1,41 @@
+# Keep the build context small and never bake secrets into the image.
+
+# Secrets / credentials
+.env
+.env.*
+!.env.example
+dynamicai-*.json
+*-service-account*.json
+gcp-*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+backend/venv/
+venv/
+.venv/
+.pytest_cache/
+
+# Node — frontend gets rebuilt inside the container
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Repo / OS / IDE
+.git/
+.gitignore
+.github/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local-only data
+backend/uploads/
+sample_data/
+
+# Docs that don't belong in the image
+docs/
+*.md
+!README.md
