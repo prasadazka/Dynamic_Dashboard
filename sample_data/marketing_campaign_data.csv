@@ -1,0 +1,51 @@
+campaignId,campaignName,startDate,endDate,channel,audience,targetSegment,impressions,clicks,conversions,spend,revenue,leadGenerated,emailsSent,emailsOpened,clickThroughRate,conversionRate,costPerClick,returnOnInvestment
+CAMP001,Spring Sale 2024,2024-03-01,2024-03-31,email,customers,retail_shoppers,45000,3200,145,1500.00,7250.00,145,45000,18000,7.11,4.53,0.47,383.33
+CAMP002,Product Launch - Tech,2024-02-15,2024-03-15,social_media,tech_enthusiasts,early_adopters,125000,8500,420,3200.00,21000.00,420,0,0,6.80,4.94,0.38,556.25
+CAMP003,Summer Flash Sale,2024-06-01,2024-06-07,email,subscribers,bargain_hunters,62000,4800,280,1800.00,11200.00,280,62000,28000,7.74,5.83,0.38,522.22
+CAMP004,Brand Awareness Q1,2024-01-01,2024-03-31,display_ads,general_public,millennials,850000,12500,380,8500.00,15200.00,380,0,0,1.47,3.04,0.68,78.82
+CAMP005,Holiday Gift Guide,2024-11-15,2024-12-25,email,customers,gift_shoppers,95000,7200,485,2800.00,24250.00,485,95000,42000,7.58,6.74,0.39,766.07
+CAMP006,Influencer Partnership,2024-04-01,2024-04-30,instagram,followers,lifestyle_segment,215000,15800,720,5200.00,36000.00,720,0,0,7.35,4.56,0.33,592.31
+CAMP007,Retargeting Campaign,2024-03-10,2024-04-10,display_ads,cart_abandoners,online_shoppers,58000,4200,320,1600.00,16000.00,320,0,0,7.24,7.62,0.38,900.00
+CAMP008,Newsletter Promo,2024-02-01,2024-02-29,email,subscribers,newsletter_readers,72000,5100,245,1200.00,9800.00,245,72000,32000,7.08,4.80,0.24,716.67
+CAMP009,YouTube Sponsorship,2024-05-01,2024-05-31,youtube,video_viewers,content_consumers,420000,18500,580,6800.00,29000.00,580,0,0,4.40,3.14,0.37,326.47
+CAMP010,Black Friday Mega Sale,2024-11-24,2024-11-29,multi_channel,all_customers,deal_seekers,320000,28500,1850,12000.00,92500.00,1850,85000,48000,8.91,6.49,0.42,670.83
+CAMP011,Customer Loyalty Rewards,2024-01-15,2024-02-15,email,loyal_customers,vip_members,38000,3800,295,950.00,14750.00,295,38000,22000,10.00,7.76,0.25,1452.63
+CAMP012,Mobile App Download,2024-03-15,2024-04-15,facebook,mobile_users,app_prospects,180000,12000,850,4200.00,0.00,850,0,0,6.67,7.08,0.35,0.00
+CAMP013,Seasonal Clearance,2024-08-01,2024-08-31,email,customers,bargain_hunters,52000,4100,310,1350.00,12400.00,310,52000,24000,7.88,7.56,0.33,818.52
+CAMP014,LinkedIn B2B Campaign,2024-02-01,2024-03-31,linkedin,professionals,business_owners,45000,2800,125,3500.00,37500.00,125,0,0,6.22,4.46,1.25,971.43
+CAMP015,Google Search Ads,2024-01-01,2024-12-31,search_engine,searchers,intent_driven,950000,52000,2850,18500.00,142500.00,2850,0,0,5.47,5.48,0.36,670.27
+CAMP016,Valentine's Day Special,2024-02-01,2024-02-14,email,couples,gift_givers,48000,4500,380,1800.00,15200.00,380,48000,28000,9.38,8.44,0.40,744.44
+CAMP017,Webinar Registration,2024-04-10,2024-05-10,email,leads,professionals,28000,2200,185,850.00,0.00,185,28000,12000,7.86,8.41,0.39,0.00
+CAMP018,Instagram Stories Ads,2024-03-01,2024-03-31,instagram,young_adults,gen_z,285000,18500,680,4800.00,27200.00,680,0,0,6.49,3.68,0.26,466.67
+CAMP019,Referral Program,2024-01-01,2024-12-31,word_of_mouth,existing_customers,brand_advocates,0,0,1250,2500.00,62500.00,1250,0,0,0.00,0.00,0.00,2400.00
+CAMP020,TikTok Challenge,2024-06-01,2024-06-30,tiktok,teenagers,social_media_users,520000,32000,920,6200.00,36800.00,920,0,0,6.15,2.88,0.19,493.55
+CAMP021,Product Demo Webinar,2024-05-15,2024-06-15,email,prospects,b2b_leads,18000,1650,95,650.00,28500.00,95,18000,8500,9.17,5.76,0.39,4284.62
+CAMP022,SMS Text Campaign,2024-07-01,2024-07-31,sms,subscribers,mobile_shoppers,35000,4200,350,1100.00,14000.00,350,35000,0,12.00,8.33,0.26,1172.73
+CAMP023,Podcast Sponsorship,2024-04-01,2024-06-30,podcast,listeners,audio_consumers,125000,5800,285,4500.00,22800.00,285,0,0,4.64,4.91,0.78,406.67
+CAMP024,Twitter Engagement,2024-02-15,2024-03-15,twitter,followers,news_followers,95000,6500,195,2200.00,9750.00,195,0,0,6.84,3.00,0.34,343.18
+CAMP025,Abandoned Cart Recovery,2024-01-01,2024-12-31,email,cart_abandoners,potential_buyers,125000,8500,1250,1500.00,62500.00,1250,125000,55000,6.80,14.71,0.18,4066.67
+CAMP026,Local Event Sponsorship,2024-08-15,2024-08-20,event,attendees,local_community,8500,450,85,3200.00,17000.00,85,0,0,5.29,18.89,7.11,431.25
+CAMP027,Customer Survey Incentive,2024-09-01,2024-09-30,email,customers,feedback_givers,42000,3800,220,950.00,0.00,220,42000,18000,9.05,5.79,0.25,0.00
+CAMP028,Pinterest Shopping Ads,2024-10-01,2024-10-31,pinterest,visual_shoppers,home_decor_lovers,185000,9500,485,3800.00,24250.00,485,0,0,5.14,5.11,0.40,538.16
+CAMP029,Early Bird Discount,2024-03-20,2024-04-05,email,subscribers,deal_seekers,55000,5200,420,1450.00,16800.00,420,55000,28000,9.45,8.08,0.28,1058.62
+CAMP030,Free Trial Promotion,2024-05-01,2024-05-31,landing_page,visitors,saas_prospects,65000,8200,650,2800.00,0.00,650,0,0,12.62,7.93,0.34,0.00
+CAMP031,Cyber Monday Deals,2024-11-27,2024-12-01,multi_channel,shoppers,online_buyers,425000,35000,2200,14500.00,110000.00,2200,95000,52000,8.24,6.29,0.41,658.62
+CAMP032,Birthday Club Special,2024-01-01,2024-12-31,email,members,birthday_celebrants,85000,7200,580,1200.00,23200.00,580,85000,42000,8.47,8.06,0.17,1833.33
+CAMP033,Reddit Community Ads,2024-07-15,2024-08-15,reddit,community_members,niche_enthusiasts,125000,6800,295,2400.00,14750.00,295,0,0,5.44,4.34,0.35,514.58
+CAMP034,Trade Show Booth,2024-09-20,2024-09-22,event,attendees,industry_professionals,2500,180,45,8500.00,45000.00,45,0,0,7.20,25.00,47.22,429.41
+CAMP035,Win-Back Campaign,2024-10-01,2024-10-31,email,inactive_customers,lapsed_buyers,32000,2200,165,850.00,8250.00,165,32000,12000,6.88,7.50,0.39,870.59
+CAMP036,Snapchat Filters,2024-06-15,2024-07-15,snapchat,young_users,snapchat_active,385000,18500,520,5500.00,20800.00,520,0,0,4.81,2.81,0.30,278.18
+CAMP037,Customer Appreciation Day,2024-12-10,2024-12-15,email,customers,all_segments,98000,8200,650,2200.00,26000.00,650,98000,52000,8.37,7.93,0.27,1081.82
+CAMP038,Back to School Sale,2024-08-01,2024-08-31,multi_channel,parents,school_shoppers,255000,18500,1050,7200.00,52500.00,1050,68000,35000,7.25,5.68,0.39,629.17
+CAMP039,Affiliate Marketing Push,2024-03-01,2024-05-31,affiliate,partner_traffic,referred_visitors,180000,12500,850,4200.00,42500.00,850,0,0,6.94,6.80,0.34,911.90
+CAMP040,Customer Testimonial Video,2024-11-01,2024-11-30,youtube,viewers,social_proof_seekers,220000,15500,680,3800.00,27200.00,680,0,0,7.05,4.39,0.25,615.79
+CAMP041,Welcome Email Series,2024-01-01,2024-12-31,email,new_subscribers,onboarding,155000,12500,1050,950.00,42000.00,1050,155000,85000,8.06,8.40,0.08,4321.05
+CAMP042,Geo-Targeted Ads,2024-04-15,2024-05-15,display_ads,local_shoppers,proximity_based,95000,5800,385,2800.00,19250.00,385,0,0,6.11,6.64,0.48,587.50
+CAMP043,Content Marketing Blog,2024-01-01,2024-12-31,blog,readers,content_consumers,420000,25000,1280,3200.00,51200.00,1280,0,0,5.95,5.12,0.13,1500.00
+CAMP044,Live Stream Shopping Event,2024-10-15,2024-10-15,facebook_live,viewers,impulse_buyers,85000,6500,520,2400.00,26000.00,520,0,0,7.65,8.00,0.37,983.33
+CAMP045,Holiday Card Campaign,2024-12-01,2024-12-20,direct_mail,customers,premium_segment,15000,0,95,4500.00,23750.00,95,0,0,0.00,0.63,0.00,427.78
+CAMP046,VIP Preview Sale,2024-05-10,2024-05-15,email,vip_members,high_value_customers,12000,1850,285,650.00,28500.00,285,12000,8500,15.42,15.41,0.35,4284.62
+CAMP047,Green Initiative Campaign,2024-04-22,2024-05-22,multi_channel,eco_conscious,sustainability_focused,185000,9800,420,4800.00,21000.00,420,45000,22000,5.30,4.29,0.49,337.50
+CAMP048,Limited Edition Launch,2024-07-01,2024-07-07,instagram,collectors,exclusivity_seekers,125000,12500,850,3500.00,42500.00,850,0,0,10.00,6.80,0.28,1114.29
+CAMP049,Quiz Engagement Campaign,2024-09-01,2024-09-30,landing_page,visitors,interactive_users,75000,6800,385,1800.00,15400.00,385,0,0,9.07,5.66,0.26,755.56
+CAMP050,Year-End Review Email,2024-12-26,2024-12-31,email,customers,engaged_users,68000,5200,295,850.00,11800.00,295,68000,38000,7.65,5.67,0.16,1288.24

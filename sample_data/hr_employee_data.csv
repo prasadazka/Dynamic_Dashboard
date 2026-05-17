@@ -1,0 +1,51 @@
+employeeId,hireDate,employeeName,department,position,manager,salary,performance,tenure,attritionRisk
+EMP001,2018-03-12,Alice Carter,Engineering,Senior Engineer,Robert King,118000,4.5,7.2,Low
+EMP002,2020-06-01,Brian Walsh,Sales,Account Executive,Linda Park,82000,3.8,5.0,Medium
+EMP003,2017-09-23,Catalina Reyes,Marketing,Marketing Manager,Linda Park,98000,4.2,8.7,Low
+EMP004,2022-01-17,Derek Liang,Engineering,Software Engineer,Robert King,95000,4.0,3.3,Low
+EMP005,2019-11-04,Elena Mitchell,HR,HR Specialist,Maya Patel,67000,3.5,5.6,Medium
+EMP006,2015-04-08,Frank Osei,Finance,Finance Director,Tomas Vega,152000,4.7,10.1,Low
+EMP007,2023-02-15,Grace Lin,Sales,Sales Coordinator,Linda Park,54000,3.2,2.3,High
+EMP008,2021-07-30,Hugo Bennett,Operations,Operations Analyst,Sara Cohen,71000,3.9,3.8,Low
+EMP009,2016-12-19,Isla Romero,Engineering,Engineering Manager,Robert King,141000,4.6,9.4,Low
+EMP010,2024-03-05,Jacob Hill,Marketing,Marketing Analyst,Linda Park,58000,3.4,1.2,Medium
+EMP011,2018-08-22,Kira Andersson,Finance,Senior Accountant,Tomas Vega,89000,4.1,7.7,Low
+EMP012,2020-10-11,Liam O'Connor,Engineering,Software Engineer,Robert King,92000,3.7,4.6,Medium
+EMP013,2019-05-29,Maya Patel,HR,HR Director,Tomas Vega,135000,4.4,6.0,Low
+EMP014,2022-09-13,Noah Becker,Sales,Account Executive,Linda Park,84000,4.0,2.7,Low
+EMP015,2017-02-04,Olivia Chen,Operations,Operations Manager,Sara Cohen,112000,4.3,9.3,Low
+EMP016,2023-11-08,Pranav Iyer,Engineering,Junior Engineer,Robert King,72000,3.3,1.5,Medium
+EMP017,2018-06-17,Quinn Davies,Marketing,Brand Specialist,Linda Park,76000,3.9,7.0,Low
+EMP018,2021-04-25,Ravi Sharma,Finance,Financial Analyst,Tomas Vega,78000,3.6,4.1,Medium
+EMP019,2016-08-30,Sophie Martin,Sales,Sales Director,Linda Park,148000,4.8,9.8,Low
+EMP020,2024-01-22,Tariq Hassan,Operations,Operations Coordinator,Sara Cohen,52000,3.1,1.3,High
+EMP021,2019-09-14,Uma Krishnan,HR,Recruiter,Maya Patel,63000,3.7,6.7,Low
+EMP022,2020-02-28,Victor Lopez,Engineering,DevOps Engineer,Robert King,105000,4.2,5.3,Low
+EMP023,2017-07-19,Wendy Nakamura,Marketing,Content Strategist,Linda Park,81000,4.0,8.1,Low
+EMP024,2022-05-06,Xavier Brooks,Finance,Junior Accountant,Tomas Vega,56000,3.0,3.0,High
+EMP025,2018-11-11,Yara Okafor,Engineering,QA Engineer,Robert King,87000,3.8,7.5,Medium
+EMP026,2015-10-02,Zachary Wood,Sales,Senior Account Executive,Linda Park,128000,4.5,10.6,Low
+EMP027,2023-06-19,Amara Singh,Operations,Operations Analyst,Sara Cohen,61000,3.4,1.9,Medium
+EMP028,2020-12-08,Benjamin Wright,Engineering,Backend Engineer,Robert King,99000,4.1,4.5,Low
+EMP029,2019-03-17,Chloe Adams,HR,HR Manager,Maya Patel,94000,4.0,6.2,Low
+EMP030,2021-09-23,Daniel Pham,Marketing,Performance Marketing,Linda Park,73000,3.5,3.7,Medium
+EMP031,2016-05-14,Eshaan Verma,Finance,Senior Financial Analyst,Tomas Vega,103000,4.3,9.0,Low
+EMP032,2024-04-29,Farah Ahmed,Engineering,Junior Engineer,Robert King,70000,3.0,1.1,High
+EMP033,2018-01-30,George Petrov,Sales,Account Executive,Linda Park,83000,3.7,8.4,Medium
+EMP034,2017-10-25,Hannah Foster,Operations,Operations Director,Tomas Vega,138000,4.6,8.6,Low
+EMP035,2022-08-12,Ibrahim Yusuf,Engineering,Frontend Engineer,Robert King,91000,3.9,3.8,Low
+EMP036,2019-12-07,Julia Romero,Marketing,SEO Specialist,Linda Park,68000,3.4,6.5,Medium
+EMP037,2020-04-18,Kenji Watanabe,Finance,Treasury Analyst,Tomas Vega,86000,4.1,6.1,Low
+EMP038,2023-09-26,Luna Vasquez,Engineering,Software Engineer,Robert King,93000,3.6,1.7,Medium
+EMP039,2018-07-09,Marco Conti,HR,HR Analyst,Maya Patel,65000,3.5,7.9,Medium
+EMP040,2016-02-21,Nadia Khan,Sales,Senior Account Executive,Linda Park,121000,4.4,10.3,Low
+EMP041,2021-11-15,Oliver Schmidt,Operations,Logistics Coordinator,Sara Cohen,59000,3.2,3.6,High
+EMP042,2017-04-03,Priya Desai,Engineering,Principal Engineer,Robert King,155000,4.8,9.1,Low
+EMP043,2024-05-10,Quincy Brown,Marketing,Junior Marketer,Linda Park,51000,3.0,1.1,High
+EMP044,2019-08-16,Renee Dupont,Finance,Senior Accountant,Tomas Vega,91000,4.0,6.9,Low
+EMP045,2020-01-09,Sebastian Cruz,Engineering,Mobile Engineer,Robert King,97000,4.2,5.4,Low
+EMP046,2022-03-22,Tia Robinson,HR,HR Specialist,Maya Patel,68000,3.6,3.2,Medium
+EMP047,2018-09-28,Umberto Ricci,Sales,Account Manager,Linda Park,105000,4.3,7.7,Low
+EMP048,2023-04-04,Vanessa Park,Operations,Operations Analyst,Sara Cohen,62000,3.3,2.1,Medium
+EMP049,2017-12-15,Wei Zhang,Engineering,Staff Engineer,Robert King,142000,4.7,8.5,Low
+EMP050,2021-06-11,Yusra Malik,Marketing,Marketing Manager,Linda Park,99000,4.1,4.0,Low

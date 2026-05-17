@@ -1,0 +1,51 @@
+shipmentId,shipDate,origin,destination,carrier,vehicle,freightCost,weightKg,deliveryDays,route
+SHP001,2026-01-04,New York,Los Angeles,FedEx,Truck-101,1850.50,420,4,Route West-A
+SHP002,2026-01-04,Chicago,Houston,UPS,Truck-205,920.25,180,3,Route South-B
+SHP003,2026-01-05,Los Angeles,Seattle,DHL,Truck-310,640.00,95,2,Route Pacific-A
+SHP004,2026-01-05,Boston,Miami,FedEx,Truck-118,1420.75,310,4,Route East-A
+SHP005,2026-01-06,Houston,Phoenix,UPS,Truck-212,780.40,150,3,Route South-C
+SHP006,2026-01-06,Atlanta,Denver,USPS,Truck-407,1080.20,225,4,Route Central-A
+SHP007,2026-01-07,San Francisco,Portland,DHL,Truck-321,520.60,85,2,Route Pacific-B
+SHP008,2026-01-07,Dallas,Minneapolis,FedEx,Truck-130,1240.90,275,3,Route Central-B
+SHP009,2026-01-08,Phoenix,Las Vegas,UPS,Truck-220,310.50,65,1,Route West-B
+SHP010,2026-01-08,New York,Chicago,FedEx,Truck-105,890.30,195,2,Route East-B
+SHP011,2026-01-11,Seattle,Los Angeles,DHL,Truck-315,1560.00,380,3,Route Pacific-A
+SHP012,2026-01-11,Miami,Atlanta,USPS,Truck-410,470.85,110,2,Route East-C
+SHP013,2026-01-12,Denver,Salt Lake City,FedEx,Truck-145,580.20,130,2,Route Central-C
+SHP014,2026-01-12,Portland,San Francisco,UPS,Truck-228,490.40,85,2,Route Pacific-B
+SHP015,2026-01-13,Minneapolis,Dallas,DHL,Truck-330,1180.65,260,3,Route Central-B
+SHP016,2026-01-13,Las Vegas,Phoenix,FedEx,Truck-152,335.10,70,1,Route West-B
+SHP017,2026-01-14,Chicago,New York,USPS,Truck-415,840.75,180,2,Route East-B
+SHP018,2026-01-14,Los Angeles,Houston,UPS,Truck-235,1720.40,395,4,Route South-A
+SHP019,2026-01-15,Atlanta,Boston,FedEx,Truck-160,1380.50,290,4,Route East-A
+SHP020,2026-01-15,Houston,Dallas,DHL,Truck-340,290.20,60,1,Route South-D
+SHP021,2026-01-18,Phoenix,Los Angeles,USPS,Truck-420,610.80,140,2,Route West-B
+SHP022,2026-01-18,Denver,Chicago,UPS,Truck-242,1150.30,250,3,Route Central-D
+SHP023,2026-01-19,San Francisco,Seattle,FedEx,Truck-168,720.45,160,2,Route Pacific-A
+SHP024,2026-01-19,Boston,New York,DHL,Truck-350,420.10,90,1,Route East-D
+SHP025,2026-01-20,Portland,Denver,USPS,Truck-425,1090.55,235,3,Route Central-A
+SHP026,2026-01-20,Miami,Houston,UPS,Truck-250,1320.70,285,3,Route South-E
+SHP027,2026-01-21,Minneapolis,Chicago,FedEx,Truck-175,540.25,115,2,Route Central-E
+SHP028,2026-01-21,Las Vegas,San Francisco,DHL,Truck-360,810.90,175,2,Route West-C
+SHP029,2026-01-22,New York,Atlanta,USPS,Truck-430,950.45,200,3,Route East-E
+SHP030,2026-01-22,Los Angeles,Phoenix,UPS,Truck-258,520.30,110,2,Route West-B
+SHP031,2026-02-01,Chicago,Minneapolis,FedEx,Truck-182,460.75,100,2,Route Central-E
+SHP032,2026-02-01,Houston,Atlanta,DHL,Truck-370,980.20,215,3,Route South-F
+SHP033,2026-02-02,Atlanta,Miami,USPS,Truck-440,650.40,140,2,Route East-C
+SHP034,2026-02-02,Denver,Phoenix,UPS,Truck-265,720.85,155,2,Route West-D
+SHP035,2026-02-03,Seattle,San Francisco,FedEx,Truck-190,580.30,125,2,Route Pacific-B
+SHP036,2026-02-03,Boston,Chicago,DHL,Truck-380,1040.60,225,3,Route East-F
+SHP037,2026-02-04,Portland,Los Angeles,USPS,Truck-445,1280.45,275,3,Route Pacific-C
+SHP038,2026-02-04,Dallas,New York,UPS,Truck-272,1860.90,400,4,Route Central-F
+SHP039,2026-02-05,Phoenix,Denver,FedEx,Truck-198,690.15,150,2,Route West-D
+SHP040,2026-02-05,San Francisco,Las Vegas,DHL,Truck-390,540.30,115,2,Route West-C
+SHP041,2026-02-08,Miami,New York,USPS,Truck-450,1450.80,310,4,Route East-G
+SHP042,2026-02-08,Houston,Los Angeles,UPS,Truck-280,1690.25,365,4,Route South-A
+SHP043,2026-02-09,Chicago,Boston,FedEx,Truck-205,1090.40,235,3,Route East-F
+SHP044,2026-02-09,Atlanta,Dallas,DHL,Truck-395,860.55,185,3,Route South-G
+SHP045,2026-02-10,Denver,Seattle,USPS,Truck-455,1240.10,265,3,Route Pacific-D
+SHP046,2026-02-10,Las Vegas,Los Angeles,UPS,Truck-285,380.45,80,1,Route West-C
+SHP047,2026-02-11,Minneapolis,Denver,FedEx,Truck-215,840.20,180,3,Route Central-A
+SHP048,2026-02-11,Portland,Chicago,DHL,Truck-400,1380.65,295,4,Route Central-G
+SHP049,2026-02-12,Boston,Atlanta,USPS,Truck-460,1130.85,245,3,Route East-A
+SHP050,2026-02-12,New York,Miami,UPS,Truck-290,1280.40,275,3,Route East-G

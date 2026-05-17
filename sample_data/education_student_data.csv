@@ -1,0 +1,51 @@
+studentId,enrollmentDate,studentName,course,teacher,semester,gpa,attendanceRate,tuition,scholarship
+STU001,2023-08-21,Aarav Mehta,Computer Science,Dr. Smith,Fall 2023,3.8,94,18500,5000
+STU002,2023-08-21,Bianca Russo,Mathematics,Prof. Lee,Fall 2023,3.5,88,17200,3000
+STU003,2023-08-21,Caleb Johnson,Biology,Dr. Patel,Fall 2023,3.2,82,19800,0
+STU004,2023-08-21,Daria Volkov,Physics,Prof. Garcia,Fall 2023,3.9,96,18500,8000
+STU005,2023-08-21,Eli Bernstein,Chemistry,Dr. Tanaka,Fall 2023,3.4,86,17900,2500
+STU006,2023-08-21,Fatima Al-Sayed,Literature,Prof. Nakamura,Fall 2023,3.7,93,16500,4000
+STU007,2023-08-21,Gabriel Souza,Economics,Dr. Müller,Fall 2023,3.0,79,19200,0
+STU008,2023-08-21,Hina Tanaka,Psychology,Prof. Petrov,Fall 2023,3.6,90,17500,3500
+STU009,2024-01-15,Ian McAllister,Computer Science,Dr. Smith,Spring 2024,3.3,84,18500,2000
+STU010,2024-01-15,Jasmine Rivera,Mathematics,Prof. Lee,Spring 2024,3.8,95,17200,6000
+STU011,2024-01-15,Kabir Joshi,Biology,Dr. Patel,Spring 2024,2.8,72,19800,0
+STU012,2024-01-15,Lucia Esposito,Physics,Prof. Garcia,Spring 2024,3.7,92,18500,5500
+STU013,2024-01-15,Mateo Alvarez,Chemistry,Dr. Tanaka,Spring 2024,3.1,80,17900,0
+STU014,2024-01-15,Naima Diallo,Literature,Prof. Nakamura,Spring 2024,3.5,87,16500,3000
+STU015,2024-01-15,Owen Fitzgerald,Economics,Dr. Müller,Spring 2024,3.9,97,19200,7500
+STU016,2024-01-15,Priya Subramanian,Psychology,Prof. Petrov,Spring 2024,3.4,85,17500,2000
+STU017,2024-08-19,Quentin Rousseau,Computer Science,Dr. Smith,Fall 2024,3.6,89,19000,4500
+STU018,2024-08-19,Ria Kapoor,Mathematics,Prof. Lee,Fall 2024,3.2,81,17800,1500
+STU019,2024-08-19,Samir Khouri,Biology,Dr. Patel,Fall 2024,3.7,91,20300,5000
+STU020,2024-08-19,Tess Lindqvist,Physics,Prof. Garcia,Fall 2024,2.9,76,19000,0
+STU021,2024-08-19,Umar Khan,Chemistry,Dr. Tanaka,Fall 2024,3.5,87,18400,3000
+STU022,2024-08-19,Valentina Cruz,Literature,Prof. Nakamura,Fall 2024,3.8,94,17000,6000
+STU023,2024-08-19,Wesley Anand,Economics,Dr. Müller,Fall 2024,3.3,83,19700,2000
+STU024,2024-08-19,Ximena Torres,Psychology,Prof. Petrov,Fall 2024,3.6,90,18000,3500
+STU025,2025-01-13,Yusuf Ahmed,Computer Science,Dr. Smith,Spring 2025,3.9,96,19000,8000
+STU026,2025-01-13,Zara Williams,Mathematics,Prof. Lee,Spring 2025,3.4,86,17800,2500
+STU027,2025-01-13,Anika Banerjee,Biology,Dr. Patel,Spring 2025,3.1,78,20300,0
+STU028,2025-01-13,Bruno Costa,Physics,Prof. Garcia,Spring 2025,3.7,92,19000,4500
+STU029,2025-01-13,Clara Hansen,Chemistry,Dr. Tanaka,Spring 2025,3.5,88,18400,3000
+STU030,2025-01-13,Devin Park,Literature,Prof. Nakamura,Spring 2025,2.7,70,17000,0
+STU031,2025-01-13,Esme Laurent,Economics,Dr. Müller,Spring 2025,3.8,95,19700,6500
+STU032,2025-01-13,Farid Habibi,Psychology,Prof. Petrov,Spring 2025,3.3,84,18000,2000
+STU033,2025-08-25,Genevieve Pham,Computer Science,Dr. Smith,Fall 2025,3.6,89,19500,4000
+STU034,2025-08-25,Hector Mendoza,Mathematics,Prof. Lee,Fall 2025,3.0,75,18300,0
+STU035,2025-08-25,Ivy Goldberg,Biology,Dr. Patel,Fall 2025,3.7,93,20800,5000
+STU036,2025-08-25,Jamil Cisse,Physics,Prof. Garcia,Fall 2025,3.8,95,19500,6000
+STU037,2025-08-25,Kira Olsson,Chemistry,Dr. Tanaka,Fall 2025,3.4,85,18900,2500
+STU038,2025-08-25,Leo Bernardi,Literature,Prof. Nakamura,Fall 2025,3.2,81,17500,1500
+STU039,2025-08-25,Mira Saputra,Economics,Dr. Müller,Fall 2025,3.6,90,20200,4000
+STU040,2025-08-25,Nikolai Petrov,Psychology,Prof. Petrov,Fall 2025,3.9,97,18500,7500
+STU041,2026-01-12,Olive Bradshaw,Computer Science,Dr. Smith,Spring 2026,3.5,87,19500,3500
+STU042,2026-01-12,Pablo Estevez,Mathematics,Prof. Lee,Spring 2026,3.1,79,18300,1000
+STU043,2026-01-12,Qadir Rahman,Biology,Dr. Patel,Spring 2026,3.4,85,20800,2500
+STU044,2026-01-12,Rosa Lombardi,Physics,Prof. Garcia,Spring 2026,3.6,90,19500,4000
+STU045,2026-01-12,Sander Vandermeer,Chemistry,Dr. Tanaka,Spring 2026,2.9,74,18900,0
+STU046,2026-01-12,Tatiana Volkov,Literature,Prof. Nakamura,Spring 2026,3.8,94,17500,5500
+STU047,2026-01-12,Uche Okonkwo,Economics,Dr. Müller,Spring 2026,3.3,83,20200,2000
+STU048,2026-01-12,Vera Nilsson,Psychology,Prof. Petrov,Spring 2026,3.7,91,18500,4500
+STU049,2026-01-12,William Tanaka,Computer Science,Dr. Smith,Spring 2026,3.2,81,19500,1500
+STU050,2026-01-12,Yara Bouchard,Mathematics,Prof. Lee,Spring 2026,3.9,97,18300,8000

@@ -1,0 +1,51 @@
+patientId,admissionDate,dischargeDate,patientName,age,gender,diagnosis,treatment,doctor,hospital,department,medicalCondition,medicationPrescribed,lengthOfStay,insuranceProvider,totalCost
+PAT001,2024-01-10,2024-01-13,John Anderson,45,Male,Hypertension,Medication therapy,Dr. Smith,Central Hospital,Cardiology,High blood pressure,Lisinopril 10mg,3,Blue Cross,2500.00
+PAT002,2024-01-12,2024-01-15,Mary Williams,62,Female,Type 2 Diabetes,Insulin therapy,Dr. Johnson,Central Hospital,Endocrinology,Diabetes mellitus,Metformin 500mg,3,Aetna,3200.00
+PAT003,2024-01-15,2024-01-16,Robert Brown,28,Male,Acute Bronchitis,Antibiotics,Dr. Davis,City Medical,Pulmonology,Respiratory infection,Amoxicillin 500mg,1,UnitedHealth,800.00
+PAT004,2024-01-18,2024-01-22,Jennifer Taylor,55,Female,Osteoarthritis,Physical therapy,Dr. Wilson,Central Hospital,Orthopedics,Joint pain,Ibuprofen 400mg,4,Cigna,4500.00
+PAT005,2024-01-20,2024-01-21,Michael Davis,35,Male,Migraine,Pain management,Dr. Martinez,City Medical,Neurology,Severe headache,Sumatriptan 50mg,1,Blue Shield,650.00
+PAT006,2024-01-22,2024-01-28,Sarah Johnson,70,Female,Hip Fracture,Surgery,Dr. Anderson,Central Hospital,Orthopedics,Bone fracture,Oxycodone 5mg,6,Medicare,15000.00
+PAT007,2024-01-25,2024-01-26,David Miller,42,Male,Gastroenteritis,IV fluids,Dr. Thompson,City Medical,Gastroenterology,Stomach infection,Ondansetron 4mg,1,Humana,950.00
+PAT008,2024-01-28,2024-02-01,Lisa Garcia,58,Female,Pneumonia,Antibiotics and oxygen,Dr. Smith,Central Hospital,Pulmonology,Lung infection,Azithromycin 250mg,4,Aetna,5600.00
+PAT009,2024-02-01,2024-02-02,James Wilson,31,Male,Sprained Ankle,Rest and compression,Dr. Davis,City Medical,Orthopedics,Sports injury,Naproxen 500mg,1,Blue Cross,580.00
+PAT010,2024-02-03,2024-02-08,Patricia Martinez,65,Female,Congestive Heart Failure,Diuretics and monitoring,Dr. Johnson,Central Hospital,Cardiology,Heart condition,Furosemide 40mg,5,Medicare,8900.00
+PAT011,2024-02-05,2024-02-06,Christopher Lee,39,Male,Allergic Reaction,Antihistamines,Dr. Wilson,City Medical,Emergency,Severe allergy,Diphenhydramine 25mg,1,UnitedHealth,720.00
+PAT012,2024-02-08,2024-02-12,Barbara White,52,Female,Urinary Tract Infection,Antibiotics,Dr. Martinez,Central Hospital,Urology,Bladder infection,Ciprofloxacin 500mg,4,Cigna,2100.00
+PAT013,2024-02-10,2024-02-11,Daniel Harris,47,Male,Acute Sinusitis,Decongestants,Dr. Anderson,City Medical,ENT,Sinus infection,Amoxicillin-Clavulanate,1,Blue Shield,680.00
+PAT014,2024-02-12,2024-02-18,Nancy Clark,68,Female,Stroke,Rehabilitation therapy,Dr. Thompson,Central Hospital,Neurology,Cerebrovascular accident,Aspirin 81mg,6,Medicare,18500.00
+PAT015,2024-02-15,2024-02-16,Matthew Lewis,33,Male,Food Poisoning,Rehydration therapy,Dr. Smith,City Medical,Gastroenterology,Gastrointestinal distress,Loperamide 2mg,1,Humana,850.00
+PAT016,2024-02-17,2024-02-20,Karen Walker,60,Female,Chronic Bronchitis,Inhalers and steroids,Dr. Davis,Central Hospital,Pulmonology,COPD exacerbation,Albuterol inhaler,3,Aetna,3800.00
+PAT017,2024-02-19,2024-02-20,Thomas Young,29,Male,Kidney Stone,Pain management and fluids,Dr. Johnson,City Medical,Urology,Renal calculi,Ketorolac 10mg,1,Blue Cross,1200.00
+PAT018,2024-02-21,2024-02-25,Susan King,56,Female,Gallbladder Surgery,Laparoscopic cholecystectomy,Dr. Wilson,Central Hospital,Surgery,Cholelithiasis,Hydrocodone 5mg,4,UnitedHealth,12000.00
+PAT019,2024-02-23,2024-02-24,Joseph Wright,41,Male,Concussion,Rest and observation,Dr. Martinez,City Medical,Neurology,Head trauma,Acetaminophen 500mg,1,Cigna,1100.00
+PAT020,2024-02-25,2024-02-29,Elizabeth Scott,73,Female,Sepsis,IV antibiotics and monitoring,Dr. Anderson,Central Hospital,Intensive Care,Severe infection,Vancomycin 1000mg,4,Medicare,22000.00
+PAT021,2024-02-27,2024-02-28,Charles Green,36,Male,Appendicitis,Appendectomy,Dr. Thompson,City Medical,Surgery,Acute abdomen,Ceftriaxone 1g,1,Blue Shield,8500.00
+PAT022,2024-03-01,2024-03-04,Betty Baker,64,Female,Atrial Fibrillation,Cardiac monitoring,Dr. Smith,Central Hospital,Cardiology,Heart rhythm disorder,Warfarin 5mg,3,Aetna,6200.00
+PAT023,2024-03-03,2024-03-04,Donald Adams,48,Male,Gout,Anti-inflammatory medication,Dr. Davis,City Medical,Rheumatology,Joint inflammation,Colchicine 0.6mg,1,Humana,750.00
+PAT024,2024-03-05,2024-03-09,Helen Nelson,59,Female,Cellulitis,IV antibiotics,Dr. Johnson,Central Hospital,Infectious Disease,Skin infection,Clindamycin 600mg,4,Medicare,4800.00
+PAT025,2024-03-07,2024-03-08,Paul Carter,32,Male,Asthma Attack,Nebulizer treatment,Dr. Wilson,City Medical,Pulmonology,Acute bronchospasm,Prednisone 20mg,1,Blue Cross,920.00
+PAT026,2024-03-09,2024-03-14,Donna Mitchell,67,Female,Knee Replacement,Total knee arthroplasty,Dr. Martinez,Central Hospital,Orthopedics,Severe osteoarthritis,Oxycodone 10mg,5,UnitedHealth,28000.00
+PAT027,2024-03-11,2024-03-12,Mark Perez,44,Male,Vertigo,Medication and rest,Dr. Anderson,City Medical,Neurology,Dizziness,Meclizine 25mg,1,Cigna,680.00
+PAT028,2024-03-13,2024-03-17,Carol Roberts,61,Female,Pulmonary Embolism,Anticoagulation therapy,Dr. Thompson,Central Hospital,Pulmonology,Blood clot in lung,Heparin drip,4,Aetna,9500.00
+PAT029,2024-03-15,2024-03-16,Steven Turner,37,Male,Dislocated Shoulder,Reduction and immobilization,Dr. Smith,City Medical,Orthopedics,Joint dislocation,Morphine 5mg,1,Blue Shield,1800.00
+PAT030,2024-03-17,2024-03-22,Ruth Phillips,71,Female,Chronic Kidney Disease,Dialysis initiation,Dr. Davis,Central Hospital,Nephrology,Renal failure,Epoetin alfa,5,Medicare,16500.00
+PAT031,2024-03-19,2024-03-20,Andrew Campbell,40,Male,Hernia,Surgical repair,Dr. Johnson,City Medical,Surgery,Inguinal hernia,Tramadol 50mg,1,Humana,7200.00
+PAT032,2024-03-21,2024-03-24,Michelle Parker,54,Female,Diverticulitis,Antibiotics and diet,Dr. Wilson,Central Hospital,Gastroenterology,Colon inflammation,Metronidazole 500mg,3,Blue Cross,3400.00
+PAT033,2024-03-23,2024-03-24,Kenneth Evans,46,Male,Herniated Disc,Pain management,Dr. Martinez,City Medical,Neurology,Back pain,Cyclobenzaprine 10mg,1,UnitedHealth,1150.00
+PAT034,2024-03-25,2024-03-30,Laura Edwards,69,Female,Hip Replacement,Total hip arthroplasty,Dr. Anderson,Central Hospital,Orthopedics,Severe arthritis,Hydromorphone 2mg,5,Medicare,32000.00
+PAT035,2024-03-27,2024-03-28,Edward Collins,38,Male,Panic Attack,Anxiolytics,Dr. Thompson,City Medical,Psychiatry,Acute anxiety,Lorazepam 1mg,1,Cigna,590.00
+PAT036,2024-03-29,2024-04-02,Margaret Stewart,63,Female,DVT,Anticoagulation therapy,Dr. Smith,Central Hospital,Vascular Surgery,Deep vein thrombosis,Rivaroxaban 15mg,4,Aetna,7800.00
+PAT037,2024-03-31,2024-04-01,Brian Sanchez,43,Male,Dehydration,IV fluid replacement,Dr. Davis,City Medical,Emergency,Severe fluid loss,Electrolyte solution,1,Blue Shield,780.00
+PAT038,2024-04-02,2024-04-05,Lisa Morris,57,Female,Chest Pain,Cardiac evaluation,Dr. Johnson,Central Hospital,Cardiology,Angina pectoris,Nitroglycerin 0.4mg,3,Humana,5200.00
+PAT039,2024-04-04,2024-04-05,George Rogers,34,Male,Torn Ligament,Orthopedic surgery,Dr. Wilson,City Medical,Orthopedics,ACL tear,Oxycodone 5mg,1,Medicare,9800.00
+PAT040,2024-04-06,2024-04-09,Elizabeth Reed,66,Female,Pneumonia,Antibiotics and oxygen,Dr. Martinez,Central Hospital,Pulmonology,Bacterial pneumonia,Levofloxacin 750mg,3,Blue Cross,5900.00
+PAT041,2024-04-08,2024-04-09,Jason Cook,30,Male,Laceration,Sutures,Dr. Anderson,City Medical,Emergency,Wound repair,Tetanus shot,1,UnitedHealth,650.00
+PAT042,2024-04-10,2024-04-14,Sharon Morgan,72,Female,Heart Attack,Cardiac catheterization,Dr. Thompson,Central Hospital,Cardiology,Myocardial infarction,Clopidogrel 75mg,4,Medicare,24500.00
+PAT043,2024-04-12,2024-04-13,Kevin Bell,49,Male,Back Sprain,Physical therapy,Dr. Smith,City Medical,Orthopedics,Muscle strain,Methocarbamol 500mg,1,Cigna,720.00
+PAT044,2024-04-14,2024-04-18,Amanda Murphy,58,Female,Pancreatitis,IV fluids and pain management,Dr. Davis,Central Hospital,Gastroenterology,Pancreas inflammation,Morphine drip,4,Aetna,8700.00
+PAT045,2024-04-16,2024-04-17,Ryan Bailey,27,Male,Fracture,Cast application,Dr. Johnson,City Medical,Orthopedics,Arm fracture,Ibuprofen 600mg,1,Blue Shield,1500.00
+PAT046,2024-04-18,2024-04-22,Deborah Rivera,75,Female,Falls,Observation and assessment,Dr. Wilson,Central Hospital,Geriatrics,Multiple contusions,Acetaminophen 650mg,4,Medicare,3200.00
+PAT047,2024-04-20,2024-04-21,Gary Cooper,51,Male,Arrhythmia,Cardiac monitoring,Dr. Martinez,City Medical,Cardiology,Irregular heartbeat,Metoprolol 50mg,1,Humana,2800.00
+PAT048,2024-04-22,2024-04-26,Cynthia Richardson,64,Female,Colitis,Anti-inflammatory treatment,Dr. Anderson,Central Hospital,Gastroenterology,Colon inflammation,Mesalamine 800mg,4,Blue Cross,4600.00
+PAT049,2024-04-24,2024-04-25,Timothy Howard,39,Male,Insomnia,Sleep medication,Dr. Thompson,City Medical,Psychiatry,Sleep disorder,Zolpidem 10mg,1,UnitedHealth,580.00
+PAT050,2024-04-26,2024-04-30,Angela Ward,68,Female,COPD Exacerbation,Oxygen and steroids,Dr. Smith,Central Hospital,Pulmonology,Chronic lung disease,Methylprednisolone,4,Medicare,6800.00
