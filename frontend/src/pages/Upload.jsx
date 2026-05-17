@@ -21,7 +21,35 @@ const Upload = () => {
         <div className="bg-white rounded-lg shadow-lg p-6">
           <FileUpload />
         </div>
-        
+
+        {/* Sample data — download a curated bundle to try the demo */}
+        <div className="mt-6 bg-gradient-to-r from-primary-50 to-white border border-primary-100 rounded-lg p-5 flex flex-col sm:flex-row items-start sm:items-center gap-4">
+          <div className="flex-shrink-0 h-10 w-10 rounded-lg bg-primary-100 text-primary-700 flex items-center justify-center">
+            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5 5-5M12 15V3" />
+            </svg>
+          </div>
+          <div className="flex-1 min-w-0">
+            <h3 className="text-sm font-semibold text-gray-900">First time here? Try the demo.</h3>
+            <p className="text-xs text-gray-600 mt-0.5 leading-relaxed">
+              Download a bundle of nine ready-to-use sample CSVs covering Retail, Finance, Healthcare,
+              HR, Education, Manufacturing, Logistics, Marketing, and an unmapped (Generic) dataset.
+              Unzip it, then upload any one file to see Savant AI infer the domain and build a tailored
+              dashboard.
+            </p>
+          </div>
+          <a
+            href="/sample_data.zip"
+            download="sample_data.zip"
+            className="flex-shrink-0 inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-primary-600 hover:bg-primary-700 text-white text-sm font-semibold shadow-sm transition-colors"
+          >
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5 5-5M12 15V3" />
+            </svg>
+            Download Sample Data
+          </a>
+        </div>
+
         <div className="mt-12">
           <h2 className="text-2xl font-bold mb-6 text-center">How It Works</h2>
           
